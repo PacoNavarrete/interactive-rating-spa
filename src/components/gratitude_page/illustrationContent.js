@@ -2,7 +2,7 @@ export function illustrationContent() {
     const doc = document;
 
     const $illustrationImage = doc.createElement("img");
-        $illustrationImage.src = "/images/illustration-thank-you.svg";
+        $illustrationImage.src = "./images/illustration-thank-you.svg";
         $illustrationImage.alt = "thank-you";
         $illustrationImage.classList.add("thanks_illustration");
 
