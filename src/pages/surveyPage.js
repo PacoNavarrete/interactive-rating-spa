@@ -24,7 +24,7 @@ export const surveyPage = () => {
 
         $submitButton.addEventListener("click", () => {
             if(ratingState.userRating === undefined){
-                return
+                return;
             } else {
                 $surveyCard.classList.remove("animate__backInRight");
                 $surveyCard.classList.add("animate__backOutLeft");
